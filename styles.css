@@ -63,12 +63,13 @@ body {
 
 .carta-2 {
     margin-top: 50px;
-    max-width: 850px;
-    height: 900px;
+    max-width: 800px;
+    height: 620px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    padding: 50px;
 }
 
 .carta-2__primera-parte {
@@ -78,20 +79,28 @@ body {
 }
 
 .carta-2__primera-parte div {
-    width: 25%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: start;
+    margin-right: 20px;
 }
 
 .carta-2__primera-parte h2 {
     font-size: 2rem;
     color: #333;
+    line-height: 50px;
+}
+
+.carta-2__primera-parte p {
+    font-family: sans-serif;
+    color: #555;
+    line-height: 22px;
 }
 
 .carta-2__segunda-parte {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     margin-top: 50px;
 }
