@@ -63,13 +63,13 @@ body {
 
 .carta-2 {
     margin-top: 50px;
-    max-width: 800px;
+    max-width: 830px;
     height: 620px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 40px;
 }
 
 .carta-2__primera-parte {
@@ -79,7 +79,6 @@ body {
 }
 
 .carta-2__primera-parte div {
-    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -90,6 +89,15 @@ body {
     font-size: 2rem;
     color: #333;
     line-height: 50px;
+    margin-bottom: 0;
+}
+
+.carta-2__primera-parte button {
+    border-radius: 10px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 25px ;
 }
 
 .carta-2__primera-parte p {
