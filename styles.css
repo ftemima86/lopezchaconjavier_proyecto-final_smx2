@@ -217,12 +217,13 @@ img[src="img/img__carta-2/imagen2.png"]{
 
 .carta-4 h2 {
     font-size: 40px;
-    margin-top: 0;
+    margin: 20px 0;
 }
 
 .carta-4 p {
     line-height: 22px;
     color: #777;
+    margin-top: 0;
 }
 
 .carta-4__primera-parte button {
