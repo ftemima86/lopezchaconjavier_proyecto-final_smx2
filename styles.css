@@ -200,19 +200,19 @@ img[src="img/img__carta-2/imagen2.png"]{
 /* -------------- CUARTA CARTA ------------------- */
 
 .carta-4 {
-    margin-top: 100px;
+    margin-top: 70px;
     display: flex;
     gap: 70px;
     box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
     padding-top: 50px;
-    width: 920px;
+    width: 900px;
 }
 
 .carta-4 > div {
-    width: 33%;
+    width: 35%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
 } 
 
 .carta-4 h2 {
@@ -232,8 +232,19 @@ img[src="img/img__carta-2/imagen2.png"]{
     border: none;
     padding: 10px 30px;
     border-radius: 10px;
+    font-size: 11px;
 }
 
-.carta-4__segunda-parte {
+.carta-4__segunda-parte > div > div {
+    color: #777;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+/* -------------- QUINTA CARTA ------------------- */
+
+.carta-5 {
+    margin-top: 70px;
     
 }
