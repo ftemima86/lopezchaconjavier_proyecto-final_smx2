@@ -282,3 +282,9 @@ img[src="img/img__carta-2/imagen2.png"]{
 
 /* -------------- SEXTA CARTA ------------------- */
 
+.carta-6 {
+    margin-top: 70px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+}
+
+  
