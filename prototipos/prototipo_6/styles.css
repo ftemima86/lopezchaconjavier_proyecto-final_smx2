@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.carta-6 {
+    margin-top: 70px;
+    padding: 50px;
+    width: 900px;
+    padding-bottom: 40px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    display: flex;
+}
+
+.carta-6 h2 {
+    font-size: 2.5rem;
+}
+
+img[src="img__carta-6/imagen1.png"] {
+    width: 80px;
+    position: relative;
+    left: -20px;
+}
+
+.carta-6__lado-izquierdo {
+    width: 50%;
+}
+
+.carta-6 img[src="img__carta-6/imagen2.jpg"] {
+    width: 300px;
+}
