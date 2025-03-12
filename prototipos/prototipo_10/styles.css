@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.carta-10 {
+    width: 900px;
+    height: 620px;
+    box-shadow: 3px 7px 81px -10px rgba(0,0,0,0.75);
+    background-color: #333;
+}

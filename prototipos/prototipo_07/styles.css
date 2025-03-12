@@ -56,14 +56,20 @@ img {
     position: absolute;
     top: 305px;
     left: 20px;
-    width: 180px;
+    width: 190px;
     font-size: 14px;
     line-height: 20px;
 }
 
 .contenido h3, .contenido p {
     margin: 5px 0;
+    color: #333;
+    font-family: Sen;
 } 
+
+.contenido p {
+    font-size: 14px;
+}
 
 .contenido h3 {
     font-weight: 100;
