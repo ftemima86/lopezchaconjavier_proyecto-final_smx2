@@ -27,6 +27,7 @@ body {
 .lado_izquierdo div {
     font-size: 50px;
     font-weight: 700;
+    line-height: 70px;
 }
 
 .lado_izquierdo div:nth-child(1) {
@@ -43,6 +44,7 @@ body {
 
 .lado_izquierdo p {
     color: #fff;
+    line-height: 22px;
 }
 
 .lado_izquierdo button {
