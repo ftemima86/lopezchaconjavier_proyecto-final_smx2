@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 50px;
+    background-color: radiant;
 }
 
 .lado-izquierdo {
@@ -40,6 +41,13 @@ body {
 .lado-centro {
     width: 250px;
     text-align: center;
+    position: relative;
+    z-index: 10;
+}
+
+.contenido-centro {
+    position: relative;
+    z-index: 10;
 }
 
 .lado-centro h2 {
@@ -118,4 +126,16 @@ img[alt="estreya3"] {
 .segundo-contenido {
     position: relative;
     top: -20px;
+}
+
+img[alt="gradientes"] {
+    position: absolute;
+    object-fit: cover;
+    width: 300px;
+    height: 500px;
+    opacity: .7;
+    top: -30px;
+    right: -30px;
+    filter: blur(30px);
+    border-radius: 30px;
 }
